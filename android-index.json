@@ -1,7 +1,7 @@
 {
     "name": "HRP扫码记账系统",
     "slug": "HRP",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "orientation": "portrait",
     "icon": "./assets/WechatIMG256.png",
     "userInterfaceStyle": "light",
@@ -108,8 +108,8 @@
         "asset_f5b790e2ac193b3d41015edb3551f9b8.png"
     ],
     "assetUrlOverride": "./assets",
-    "publishedTime": "2023-01-05T09:24:36.880Z",
-    "commitTime": "2023-01-05T09:24:36.880Z",
+    "publishedTime": "2023-01-05T09:25:36.880Z",
+    "commitTime": "2023-01-05T09:25:36.880Z",
     "releaseId": "e24a755d-7d50-4137-96e8-451d20441c79",
     "revisionId": "PBxaQlxq1q",
     "id": "@joseydong/HRP",
