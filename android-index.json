@@ -1,0 +1,164 @@
+{
+    "name": "HRP扫码记账系统",
+    "slug": "HRP",
+    "version": "1.2.0",
+    "orientation": "portrait",
+    "icon": "./assets/WechatIMG256.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+        "image": "./assets/WechatIMG250.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#ffffff",
+        "imageUrl": "https://expo-hrp.snowtraces.com/assets/30b2054b9f78800918f62964b0fb9fe5"
+    },
+    "updates": {
+        "fallbackToCacheTimeout": 0
+    },
+    "plugins": [
+        [
+            "expo-media-library",
+            {
+                "isAccessMediaLocationEnabled": "true"
+            }
+        ]
+    ],
+    "ios": {
+        "supportsTablet": true,
+        "infoPlist": {
+            "NSPhotoLibraryUsageDescription": "Allow $(PRODUCT_NAME) to access your photos",
+            "NSPhotoLibraryAddUsageDescription": "Allow $(PRODUCT_NAME) to save photos"
+        },
+        "bundleIdentifier": "n"
+    },
+    "android": {
+        "adaptiveIcon": {
+            "foregroundImage": "./assets/WechatIMG256.png",
+            "backgroundColor": "#FFFFFF",
+            "foregroundImageUrl": "https://expo-hrp.snowtraces.com/assets/42e80d2dec8c16e4099164a144f54ada"
+        },
+        "package": "com.joseydong.rn",
+        "permissions": [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            "android.permission.ACCESS_MEDIA_LOCATION"
+        ]
+    },
+    "web": {
+        "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+        "eas": {
+            "projectId": "8ad6c808-d528-4cbb-a9d9-f0ba9c63189a"
+        }
+    },
+    "sdkVersion": "45.0.0",
+    "platforms": [
+        "ios",
+        "android",
+        "web"
+    ],
+    "currentFullName": "@joseydong/HRP",
+    "originalFullName": "@joseydong/HRP",
+    "locales": {},
+    "iconUrl": "https://expo-hrp.snowtraces.com/assets/42e80d2dec8c16e4099164a144f54ada",
+    "bundledAssets": [
+        "asset_778ffc9fe8773a878e9c30a6304784de.png",
+        "asset_376d6a4c7f622917c39feb23671ef71d.png",
+        "asset_c79c3606a1cf168006ad3979763c7e0c.png",
+        "asset_02bc1fa7c0313217bde2d65ccbff40c9.png",
+        "asset_35ba0eaec5a4f5ed12ca16fabeae451d.png",
+        "asset_5223c8d9b0d08b82a5670fb5f71faf78.png",
+        "asset_3a2ba31570920eeb9b1d217cabe58315.ttf",
+        "asset_31b5ffea3daddc69dd01a1f3d6cf63c5.ttf",
+        "asset_140c53a7643ea949007aa9a282153849.ttf",
+        "asset_a76d309774d33d9856f650bed4292a23.ttf",
+        "asset_b49ae8ab2dbccb02c4d11caaacf09eab.ttf",
+        "asset_b06871f281fee6b241d60582ae9369b9.ttf",
+        "asset_1f77739ca9ff2188b539c36f30ffa2be.ttf",
+        "asset_605ed7926cf39a2ad5ec2d1f9d391d3d.ttf",
+        "asset_3b89dd103490708d19a95adcae52210e.ttf",
+        "asset_e20945d7c929279ef7a6f1db184a4470.ttf",
+        "asset_b3263095df30cb7db78c613e73f9499a.ttf",
+        "asset_b62641afc9ab487008e996a5c5865e56.ttf",
+        "asset_8ef52a15e44481b41e7db3c7eaf9bb83.ttf",
+        "asset_f7c53c47a66934504fcbc7cc164895a7.ttf",
+        "asset_d2285965fe34b05465047401b8595dd0.ttf",
+        "asset_1681f34aaca71b8dfb70756bca331eb2.ttf",
+        "asset_004c2bbb035d8d06bb830efc4673c886.png",
+        "asset_2327736b3ea09c41abfb69be1221f430.png",
+        "asset_51671417ef20e0bbc32f0a2bc6edfa95.png",
+        "asset_a7b9dc9de5f8f1fb1afbef917619a5ac.png",
+        "asset_4bdd6aad790c6c8370a06876ec7d31e1.png",
+        "asset_4b9cf0cc747e3c1abc541befa05b1e37.png",
+        "asset_c6a4b3856a7ecd80c3b4d27fb0b7a33d.png",
+        "asset_aed53dddb98b1c878584f1c20233566f.png",
+        "asset_0c41c6d3780b0fba6636185a7f2e53d3.png",
+        "asset_f0bbb0243b8ee904d8834e6524fd331d.jpg",
+        "asset_670e516c2456b66fdea53269400d8ffd.jpg",
+        "asset_15cc70692c055b0b9c9ff1ed7dee38f8.png",
+        "asset_342abdbb07b576f78def2007fc3428be.png",
+        "asset_49d8ee078aab39c426647c2b9eb3bc2c.png",
+        "asset_8b74849c1bebdf4a673af30d5451a204.png",
+        "asset_87018a74ff4e6345cd65a51446fca51b.png",
+        "asset_8abf3127fdb00e023815d2a81119d53a.png",
+        "asset_545f043b7fc59e3d16af67b420c257dc.png",
+        "asset_7d40544b395c5949f4646f5e150fe020.png",
+        "asset_cdd04e13d4ec83ff0cd13ec8dabdc341.png",
+        "asset_a132ecc4ba5c1517ff83c0fb321bc7fc.png",
+        "asset_0ea69b5077e7c4696db85dbcba75b0e1.png",
+        "asset_f5b790e2ac193b3d41015edb3551f9b8.png"
+    ],
+    "assetUrlOverride": "./assets",
+    "publishedTime": "2023-01-05T06:19:10.826Z",
+    "commitTime": "2023-01-05T06:19:10.826Z",
+    "releaseId": "b04cd74e-5ccc-41aa-801f-8f3d6bc7aa3d",
+    "revisionId": "02AaYrGlqO",
+    "id": "@joseydong/HRP",
+    "platform": "android",
+    "bundleUrl": "https://expo-hrp.snowtraces.com/bundles/android-90ae0e9b658be59e4ad2ec9bc6a363ab.js",
+    "dependencies": [
+        "@react-native-community/cameraroll",
+        "@react-native-cookies/cookies",
+        "@react-navigation/bottom-tabs",
+        "@react-navigation/material-top-tabs",
+        "@react-navigation/native",
+        "@react-navigation/native-stack",
+        "@reduxjs/toolkit",
+        "@rneui/base",
+        "@rneui/themed",
+        "axios",
+        "events",
+        "expo",
+        "expo-constants",
+        "expo-document-picker",
+        "expo-file-system",
+        "expo-intent-launcher",
+        "expo-linking",
+        "expo-media-library",
+        "expo-permissions",
+        "expo-sharing",
+        "expo-status-bar",
+        "expo-updates",
+        "js-cookie",
+        "react",
+        "react-dom",
+        "react-native",
+        "react-native-ms",
+        "react-native-numeric-input",
+        "react-native-pager-view",
+        "react-native-safe-area-context",
+        "react-native-screens",
+        "react-native-shadow",
+        "react-native-svg",
+        "react-native-swipe-list-view",
+        "react-native-tab-view",
+        "react-native-timeline-flatlist",
+        "react-native-vector-icons",
+        "react-native-web",
+        "react-redux",
+        "redux",
+        "redux-thunk",
+        "rn-fetch-blob",
+        "expo-splash-screen"
+    ]
+}
